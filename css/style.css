@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+
+    /* Header */
+
+.top-header {
+    font-size: 13px;
+    background-color: #041e42;
+    color: rgb(216, 216, 216);
+    padding-left: 20%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 0 3px 0 0 rgb(34, 34, 34);
+}
+
+.phone {
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+.email {
+   padding-left: 20px;
+}
+
+.main-header {
+    background-color: #041e42;
+    color: rgb(216, 216, 216);
+    padding: 20px 0;
+    padding-left: 20%;
+}
+
+.main-header img {
+    width: 90px;
+    padding-top: 1%;
+}
+
+.main-header h5 {
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.main-header p {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 9px;
+}
+
+
+    /* Navigacija */
+
+.nav {
+    transform: skew(-15deg);
+}
+.menu {
+    background-color: red;
+    width: 70%;
+    margin-left: 15%;
+    padding: 8px;
+    position: absolute;
+    top: -18px;
+}
+
+.menu li {
+    display: inline-block; 
+}
+
+.menu a {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-style: bold;
+    color: #fff;
+    border-right: 0.3px solid rgb(207, 207, 207);
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.menu li {
+    transform: skew(15deg);
+}
+
+.menu a:hover {
+    border-bottom: 3px solid white;
+}
+
+
+    /* Naslovna strana */
+
+.landing {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    display: table;
+    z-index: -1;
+}
+
+.home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-inner {
+    background-image: url(../img/home.jpg);
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    color: #fff;
+    text-transform: uppercase;
+}
+  
+.caption h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8rem rgb(0, 0, 0);
+    padding-bottom: 1rem;
+}
+  
+.caption h3 {
+    font-size: 1rem;
+    text-shadow: .1rem .1rem .5rem rgb(0, 0, 0);
+    padding-bottom: 1.6rem;
+}
+
+
+    /* O nama */
+
+.onama {
+    background-color: #fff;
+    padding: 8% 8%;
+}
+
+.onama h1 {
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-left: 20%;
+}
+
+.onama p {
+    padding-left: 20%;
+    padding-top: 40px;
+}
+
+.podvucen-naslov {
+    width: 400px;
+    height: 10px;
+    margin-left: -210px;
+    background-color: red;
+    transform: skew(-30deg);
+}
+
+.kosa-linija1 {
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 20;
+    right: 0;
+    margin-right: -50px;
+    margin-top: 120px;
+}
+
+.kosa-linija2 {
+    width: 320px;
+    height: 50px;
+    background-color: red;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 20;
+    right: 0;
+    margin-right: -100px;
+    margin-top: 250px;
+}
+
+
+    /* Usluge */
+
+.usluge {
+    background-color: rgb(245, 245, 245);
+    padding: 8% 8%;
+    font-size: 14px;
+}
+
+.usluge h1 {
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-left: 20%;
+}
+
+.usluge h3 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.usluge img {
+    width: 100%;
+    padding-top: 10%;
+}
+
+.left {
+    margin-left: 10%;
+}
+
+.usluge .podvucen-naslov {
+    margin-bottom: 80px;
+}
+
+
+
