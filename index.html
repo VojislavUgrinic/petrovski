@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fixed.css">
 
     <title>Box Petrovski</title>
   </head>
@@ -43,7 +44,7 @@
                     <p>11070 Novi Beograd</p>
             </div>
             <div class="col-md-3">
-                    <img src="img/logo.png">
+                    <img src="../img/logo.png">
             </div>
             <div class="col-md-3 clock">
                     <i class="far fa-clock fa-1.5x" data-fa-transform="shrink-4.5 up-4.5"></i>
@@ -58,11 +59,15 @@
 
     <div class="nav">
         <ul class="menu">
-            <li><a href="#">Početna</a></li>
-            <li><a href="#">O nama</a></li>
-            <li><a href="#">Usluge</a></li>
-            <li><a href="#">Galerija</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="#onama">O nama</a></li>
+            <li><a href="#usluge">Usluge</a></li>
+            <li><a href="#galerija">Galerija</a></li>
+            <li><a href="#kontakt" id="kont">Kontakt</a></li>
+            <div class="nav-right">
+            <li><a href="#" id="fb"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" id="inst"><i class="fab fa-instagram"></i></a></li>
+        </div>
         </ul>
     </div>    
 
@@ -81,29 +86,34 @@
         <h1>Box Petrovski</h1>
         <h3>Najpouzdaniji auto servis u regionu, a i šire</h3>  
     </div>
+    
 
 
     <!-- O nama -->
-        
-    <div class="onama">
+    
+    <div class="onama" id="onama">
         <div class="row">
-            <div class="col-md-5 onama1">
-                    <h1>O nama</h1>
-                    <div class="podvucen-naslov"></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis earum optio ea dolorem voluptas quos explicabo tenetur error? Vel ea, pariatur ipsam non nam sint cumque officia dolorum quisquam molestiae.</p>
+            <div class="col-md-4">
+                <h1>O nama</h1>
+                <div class="podvucen-naslov"></div>
+            </div>
+            <img src="../img/dvelinije.png">
+        </div>
+        <div class="row onama-text">     
+            <div class="col-md-5 onama1">         
+                <p><strong class="hor-line">I</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis earum optio ea dolorem voluptas quos explicabo tenetur error? Vel ea, pariatur ipsam non nam sint cumque officia dolorum quisquam molestiae.Vel ea, pariatur ipsam non nam sint cumque officia dolorum quisquam molestiae.</p>
             </div>
             <div class="col-md-5 onama2">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur ad earum quisquam mollitia repellat facere quia quam ipsam est, eius, fuga temporibus reiciendis blanditiis facilis odio amet atque id!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium doloribus eligendi, recusandae a non enim ut totam quos, accusantium architecto quis eaque amet quam nulla molestias   ducimus natus nisi quia?</p>
-            </div>
-            <div class="kosa-linija1"></div>
-            <div class="kosa-linija2"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur ad earum quisquam mollitia repellat facere quia quam ipsam est, eius, fuga temporibus reiciendis blanditiis facilis odio amet atque id!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium doloribus eligendi, recusandae a non enim ut totam quos, accusantium architecto quis eaque amet quam nulla molestias   ducimus natus nisi quia? natus nisi quia non enim ut totam quos.</p>
+            </div>         
         </div>
     </div>
 
+    
 
     <!-- Usluge -->
-    
-    <div class="usluge">
+
+    <div class="usluge" id="usluge">
             <div class="row">
                 <div class="col-md-4">
                     <h1>Usluge</h1>
@@ -112,14 +122,13 @@
             </div>
             <div class="row">
                 <div class="col-md-1 left">
-                    <img src="img/usluge.png">
+                        
                 </div>
                 <div class="col-md-4">
-                    <h3>Auto elektrika</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem similique id tenetur temporibus! Voluptas ea, hic aperiam architecto dolores.</p>
+                        
                 </div>
                 <div class="col-md-1">
-                    <img src="img/usluge.png">
+                    <img src="../img/servisklima.png">
                 </div>
                 <div class="col-md-4">
                     <h3>Servis klima uređaja</h3>
@@ -128,14 +137,14 @@
             </div>
             <div class="row">
                 <div class="col-md-1 left">
-                    <img src="img/usluge.png">
+                    <img src="../img/autoelektrika.png">
                 </div>
                 <div class="col-md-4">
-                    <h3>Limarija</h3>
+                    <h3>Auto elektrika</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem similique id tenetur temporibus! Voluptas ea, hic aperiam architecto dolores.</p>
                 </div>
                 <div class="col-md-1">
-                    <img src="img/usluge.png">
+                    <img src="../img/dijagnostika.png">
                 </div>
                 <div class="col-md-4">
                     <h3>Dijagnostika</h3>
@@ -144,21 +153,139 @@
             </div>
             <div class="row">
                 <div class="col-md-1 left">
-                    <img src="img/usluge.png">
+                    <img src="../img/limarija.png">
                 </div>
                 <div class="col-md-4">
-                    <h3>Mehanika</h3>
+                    <h3>Limarija</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem similique id tenetur temporibus! Voluptas ea, hic aperiam architecto dolores.</p>
                 </div>
                 <div class="col-md-1">
-                    <img src="img/usluge.png">
+                    <img src="../img/vulkanizer.png">
                 </div>
                 <div class="col-md-4">
                     <h3>Vulkanizer</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem similique id tenetur temporibus! Voluptas ea, hic aperiam architecto dolores.</p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-1 left">
+                    <img src="../img/mehanika.png">
+                </div>
+                <div class="col-md-4">
+                    <h3>Mehanika</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem similique id tenetur temporibus! Voluptas ea, hic aperiam architecto dolores.</p>
+                </div>
+                <div class="col-md-1">
+                    <img src="../img/vulkanizer.png">
+                </div>
+                <div class="col-md-4">
+                    <h3>Vulkanizer 2</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem similique id tenetur temporibus! Voluptas ea, hic aperiam architecto dolores.</p>
+                </div>
+            </div>
     </div>
+
+
+    <!-- Galerija -->
+
+    <div class="galerija" id="galerija">
+        <div class="row">
+            <div class="col-md-4">
+                <h1>Galerija</h1>
+                <div class="podvucen-naslov"></div>
+            </div>
+        </div>
+        <div class="ajkula">
+            <img src="../img/ajkula.png">
+        </div>
+        <div class="redboxl"></div>
+        <div class="redboxr"></div>
+        <div class="row gal"> 
+            <div class="col-md-4">
+                <img src="../img/galery1.jpg">
+            </div>
+            <div class="col-md-4">
+                <img src="../img/galery2.jpg">
+            </div>
+            <div class="col-md-4">
+                <img src="../img/galery3.jpg">
+            </div>  
+        </div>
+        <div class="row gal">
+            <div class="col-md-4">
+                <img src="../img/galery1.jpg">
+            </div>
+            <div class="col-md-4">
+                <img src="../img/galery2.jpg">
+            </div>
+            <div class="col-md-4">
+                <img src="../img/galery3.jpg">
+            </div>
+        </div>
+        <div class="row gal">
+            <div class="col-md-4">
+                <img src="../img/galery1.jpg">
+            </div>
+            <div class="col-md-4">
+                <img src="../img/galery2.jpg">
+            </div>
+            <div class="col-md-4">
+                <img src="../img/galery3.jpg">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Kontakt -->
+
+    <div class="kontakt" id="kontakt">
+        <div class="fixed-background">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>Kontakt</h1>
+                    <div class="podvucen-naslov"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 inf">
+                    <i class="fas fa-envelope"></i>&nbsp; gmail@gmail.com<br>
+                    <i class="fas fa-phone-alt"></i>&nbsp; 987/654-321<br>
+                    <i class="fas fa-home"></i>&nbsp; Bulevar Mihajla Pupina,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11070 Novi Beograd<br><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.297120031385!2d20.43528381504807!3d44.81551128451337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a655a4d115321%3A0xa6a4a30faf644d6!2sBulevar%20Mihajla%20Pupina%202!5e0!3m2!1sen!2srs!4v1572336487976!5m2!1sen!2srs" width="400" height="230" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="col-md-6 form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Vaše ime i prezime">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"  aria-describedby="emailHelp" placeholder="Vaša E-mail adresa">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" aria-describedby="textHelp" placeholder="Naslov Vaše poruke">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Ovde unesite poruku"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Pošalji</button>
+                    </form>  
+                </div>
+            </div>
+        <div class="fixed-wrap">
+            <div class="fixed">  
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Futer -->
+
+    <div class="footer">
+        <p>Sva prava zadržana &copy; Box Petrovski 2019.</p>
+    </div>
+    
           
 
     <!-- Optional JavaScript -->
