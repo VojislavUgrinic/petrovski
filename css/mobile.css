@@ -1,0 +1,175 @@
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        z-index: 2;
+    }
+
+    .navbar a {
+        border-right: none;
+    }
+
+    #inst {
+        padding: 1px 25px !important;
+    }
+
+    .caption h1 {
+        font-size: 30px;
+    }
+
+    .caption h3 {
+        font-size: 15px;
+    }
+
+    .onama {
+        padding: 8% 2%;
+    }
+
+    #peraje {
+        width: 10%;
+    }
+
+    .podvucen-naslov {
+        width: 400px;
+    }
+
+    .usluge {
+        padding: 6.8% 2%;
+    }
+
+    .usluge .d-flex {
+        margin-bottom: 10px;
+    }
+
+    .galerija {
+        padding: 6.8% 2%;
+    }
+
+    .redboxl, .redboxr {
+        width: 70px;
+        height: 150px;
+        margin-top: 10%;
+    }
+
+    .ajkula {
+        margin-top: -250px;
+    }
+
+    .kontakt {
+        padding: 6.8% 2%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+    .main-header img {
+        display: none;
+    }
+
+    .main-header {
+        padding-left: 0%;
+        padding-top: 10px;
+    }
+
+    .navbar {
+        margin-top: 0px;
+        width: 100%;
+        margin-left: 0%;
+        transform: skew(0deg);
+    }
+
+    .navbar a {
+        transform: skew(-15deg);
+        text-align: right;
+    }
+
+    .navbar-brand {
+        display: inline;
+        border-right: none !important;
+    }
+
+    .navbar-brand img {
+        width: 50px;
+    }
+
+    .caption {
+        margin-top: 20%;
+    }
+
+    .caption h1 {
+        font-size: 25px;
+    }
+
+    .caption h3 {
+        font-size: 12px;
+    }
+
+    .onama {
+        padding: 8% 0%;
+    }
+
+    .onama-text {
+        margin-left: 2%;
+    }
+
+    .onama p {
+        padding-right: 5%;
+    }
+
+    .onama img {
+        display: none;
+    }
+
+    .podvucen-naslov {
+        width: 380px;
+    }
+
+    .onama .podvucen-naslov {
+        margin-bottom: 50px;
+    }
+
+    .usluge .podvucen-naslov {
+        margin-bottom: 50px;
+    }
+
+    .usluge-opis {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .usluge .d-flex {
+        margin-bottom: 10px;
+    }
+
+    .ajkula {
+        margin-top: -180px;
+    }
+
+    .gal {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .redboxl, .redboxr {
+        display: none;
+    }
+
+    .kontakt .podvucen-naslov {
+        margin-bottom: 50px;
+    }
+
+    .inf {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .form {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+}
+
