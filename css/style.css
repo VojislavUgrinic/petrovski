@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
@@ -153,17 +157,16 @@ body {
     text-decoration: none;
 }
 
-
 .navbar .nav-item {
     transform: skew(15deg) !important;
+    list-style-type: none;
 }
 
 #kont, #fb, #inst, #prazno {
     border-right: none;
 }
 
-#inst {
-    padding-left: 0px !important;
+#fb {
     padding-right: 0px !important;
 }
 
@@ -173,14 +176,12 @@ body {
     margin-top: 0px;
     z-index: 9999;
     transition: all 1.5s ease;
-    opacity: 0.8; 
+    opacity: 1; 
 }
 
 .navbar-brand {
     display: none;
 }
-
-
 
 
     /* Naslovna strana */
@@ -194,7 +195,7 @@ body {
     width: 100%;
     max-width: 100%;
     position: absolute;
-    top: 60%;
+    top: 70%;
     z-index: 1;
     color: #fff;
     text-transform: uppercase;
@@ -260,7 +261,7 @@ body {
     right: 0;
     bottom: 0;
     width: 10%;
-    margin-top: 7.7%;
+   
 }
 
 .podvucen-naslov {
@@ -426,6 +427,12 @@ body {
     background-color: transparent;
     border-radius: 0%;
     font-size: 13px;
+    color: white;
+}
+
+.kontakt .form-control:focus {
+    box-shadow: none;
+    border: 1px solid rgb(216, 216, 216);
 }
 
 .btn-primary {
@@ -462,8 +469,6 @@ body {
 }
 
 
-
-
     /* Futer */
 
 .footer {
@@ -481,7 +486,6 @@ body {
     top: 50%;
     transform: translateY(-50%);
 }
-
 
 
 
