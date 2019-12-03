@@ -42,8 +42,18 @@
 
 
 @media screen and (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
     .navbar {
         z-index: 2;
+        overflow: visible;
+        position: absolute;
+    }
+
+    .sticky {
+        position: fixed;
     }
 
     .navbar a {
@@ -105,13 +115,9 @@
 
 
 @media screen and (max-width: 425px) {
-    .row {
-        padding: 0px;
-        margin: 0px;
-    }
 
     .main-header img {
-        display: none;
+        display: none; 
     }
 
     .main-header {
@@ -192,6 +198,10 @@
 
     .ajkula {
         display: none;
+    }
+
+    .galerija {
+        padding-right: 2%;
     }
 
     .gal {
