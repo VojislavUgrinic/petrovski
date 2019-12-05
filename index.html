@@ -13,9 +13,10 @@
 
     <!-- CSS -->
     
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fixed.css">
-    <link rel="stylesheet" href="css/mobile.css">    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fixed.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="../css/aos.css"> 
 
     <title>Box Petrovski</title>
   </head>
@@ -46,7 +47,7 @@
                     <p>11050 Zvezdara</p>
             </div>
             <div class="col-md-3">
-                    <img src="img/logo.png">
+                    <a href="index.html"><img src="../img/logo.png"></a>
             </div>
             <div class="col-md-3 clock">
                     <i class="far fa-clock fa-1.5x" data-fa-transform="shrink-4.5 up-4.5"></i>
@@ -57,28 +58,13 @@
     </div>
 
 
-    <!-- Navigacija 
-
-    <div class="nav">
-        <ul class="menu">
-            <li><a href="index.html">Početna</a></li>
-            <li><a href="#onama">O nama</a></li>
-            <li><a href="#usluge">Usluge</a></li>
-            <li><a href="#galerija">Galerija</a></li>
-            <li><a href="#kontakt" id="kont">Kontakt</a></li>
-            <div class="nav-right">
-            <li><a href="#" id="fb"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#" id="inst"><i class="fab fa-instagram"></i></a></li>
-        </div>
-        </ul>
-    </div>    -->
+    <!-- Navigacija -->
     
     <nav class="navbar navbar-expand-lg">
-       
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-align-left text-light"></i>
             </button>
-            <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+            <a class="navbar-brand" href="#"><img src="../img/logo.png"></a>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
@@ -96,15 +82,13 @@
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <a class="nav-link" id="kont" href="#kontakt">Kontakt</a>
                 </li>   
-            </ul>            
+               </ul>            
                 <li class="nav-item">
                     <a class="nav-link" id="fb" href="#"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="inst" href="#"><i class="fab fa-instagram"></i></a>
                 </li>
-                
-              
             </div>
           </nav>
 
@@ -120,29 +104,29 @@
     </div>
 
     <div class="caption text-center">
-        <h1>Box Petrovski</h1>
-        <h3>Najpouzdaniji auto servis u regionu, a i šire</h3>  
+        <h1 data-aos="zoom-out" data-aos-duration="2000">Box Petrovski</h1>
+        <h3 data-aos="zoom-out" data-aos-duration="2000">Najpouzdaniji auto servis u regionu, a i šire</h3>  
     </div>
     
 
 
     <!-- O nama -->
-    <img src="img/peraje.png" id="peraje">
+
+    <img src="../img/peraje.png" id="peraje">
     <div class="onama" id="onama">
-            
         <div class="row">
             <div class="col-md-12">
                 <h1>O nama</h1>
-                <div class="podvucen-naslov"></div>
+                <div data-aos="slide-right" class="podvucen-naslov"></div>
             </div>
-            <img src="img/dvelinije.png">
+            <img src="../img/dvelinije.png">
         </div>
         <div class="row onama-text">     
             <div class="col-md-5 onama1">         
-                <p><strong class="hor-line">I</strong>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto. beatae vitae dicta sunt explicabo.</p>
+                <p data-aos="zoom-out-right" data-aos-duration="3000"><strong class="hor-line">I</strong>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto. beatae vitae dicta sunt explicabo.</p>
             </div>
             <div class="col-md-5 onama2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste </p>
+                <p data-aos="zoom-out-left" data-aos-duration="3000">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste </p>
             </div>         
         </div>
     </div>
@@ -153,7 +137,7 @@
     <div class="usluge" id="usluge">
         <div class="row">
             <div class="col-md-12">
-                <h1>Usluge</h1>
+                <h1 data-aos="slide-right">Usluge</h1>
                 <div class="podvucen-naslov"></div>
             </div>
         </div>
@@ -162,9 +146,9 @@
             <div class="col-md-6 col-sm-12 text-right">
                       
             </div>
-            <div class="col-md-6 col-sm-12 text-left">
+            <div data-aos="zoom-out-left" data-aos-duration="1500" class="col-md-6 col-sm-12 text-left">
                     <div class="d-flex flex-row justify-content-center">
-                        <img src="img/servisklima.png">
+                        <img src="../img/servisklima.png">
                         <div class="text text-left">
                             <h3 class="pt-1 m-0">Servis klima uređaja</h3>
                             <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
@@ -174,18 +158,18 @@
         </div>
 
         <div class="row usluge-opis">
-            <div class="col-md-6 col-sm-12 text-right">
+            <div data-aos="zoom-out-right" data-aos-duration="1500" class="col-md-6 col-sm-12 text-right">
                 <div class="d-flex flex-row justify-content-center">
-                    <img src="img/autoelektrika.png">
+                    <img src="../img/autoelektrika.png">
                     <div class="text text-left">
                         <h3 class="pt-1 m-0">Auto elektrika</h3>
                         <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
                     </div>
                 </div>   
             </div>
-            <div class="col-md-6 col-sm-12 text-left">
+            <div data-aos="zoom-out-left" data-aos-duration="1500" class="col-md-6 col-sm-12 text-left">
                     <div class="d-flex flex-row justify-content-center">
-                        <img src="img/dijagnostika.png">
+                        <img src="../img/dijagnostika.png">
                         <div class="text text-left">
                             <h3 class="pt-1 m-0">Dijagnostika</h3>
                             <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
@@ -195,18 +179,18 @@
         </div>
 
         <div class="row usluge-opis">
-            <div class="col-md-6 col-sm-12 text-right">
+            <div data-aos="zoom-out-right" data-aos-duration="1500" class="col-md-6 col-sm-12 text-right">
                 <div class="d-flex flex-row justify-content-center">
-                    <img src="img/limarija.png">
+                    <img src="../img/limarija.png">
                     <div class="text text-left">
                         <h3 class="pt-1 m-0">Limarija</h3>
                         <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
                     </div>
                 </div>   
             </div>
-            <div class="col-md-6 col-sm-12 text-left">
+            <div data-aos="zoom-out-left" data-aos-duration="1500" class="col-md-6 col-sm-12 text-left">
                     <div class="d-flex flex-row justify-content-center">
-                        <img src="img/vulkanizer.png">
+                        <img src="../img/vulkanizer.png">
                         <div class="text text-left">
                             <h3 class="pt-1 m-0">Vulkanizer</h3>
                             <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
@@ -216,18 +200,18 @@
         </div>
 
         <div class="row usluge-opis">
-            <div class="col-md-6 col-sm-12 text-right">
+            <div data-aos="zoom-out-right" data-aos-duration="1500" class="col-md-6 col-sm-12 text-right">
                 <div class="d-flex flex-row justify-content-center">
-                    <img src="img/mehanika.png">
+                    <img src="../img/mehanika.png">
                     <div class="text text-left">
                         <h3 class="pt-1 m-0">Mehanika</h3>
                         <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
                     </div>
                 </div>   
             </div>
-            <div class="col-md-6 col-sm-12 text-left">
+            <div data-aos="zoom-out-left" data-aos-duration="1500" class="col-md-6 col-sm-12 text-left">
                     <div class="d-flex flex-row justify-content-center">
-                        <img src="img/vulkanizer.png">
+                        <img src="../img/vulkanizer.png">
                         <div class="text text-left">
                             <h3 class="pt-1 m-0">Vulkanizer 2</h3>
                             <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
@@ -244,63 +228,63 @@
     <div class="galerija" id="galerija">
         <div class="row">
             <div class="col-md-12">
-                <h1>Galerija</h1>
+                <h1 data-aos="slide-right">Galerija</h1>
                 <div class="podvucen-naslov"></div>
             </div>
         </div>
-        <div class="ajkula">
-            <img src="img/ajkula.png">
+        <div data-aos="slide-left" data-aos-duration="2000" class="ajkula">
+            <img src="../img/ajkula.png">
         </div>
         <div class="redboxl"></div>
         <div class="redboxr"></div>
         <div class="row gal"> 
             <div class="col-md-4">
-                <a href="img/galery1.jpg" class="image">
-                    <img src="img/galery1.jpg">
+                <a href="../img/galery1.jpg" class="image">
+                    <img src="../img/galery1.jpg">
                 </a>
             </div>
             <div class="col-md-4">
-                    <a href="img/galery2.jpg" class="image">
-                        <img src="img/galery2.jpg">
+                    <a href="../img/galery2.jpg" class="image">
+                        <img src="../img/galery2.jpg">
                     </a>
             </div>
             <div class="col-md-4">
-                    <a href="img/galery3.jpg" class="image">
-                        <img src="img/galery3.jpg">
+                    <a href="../img/galery3.jpg" class="image">
+                        <img src="../img/galery3.jpg">
                     </a>
             </div>  
         </div>
         <div class="row gal">
             <div class="col-md-4">
-                    <a href="img/galery1.jpg" class="image">
-                        <img src="img/galery1.jpg">
+                    <a href="../img/galery1.jpg" class="image">
+                        <img src="../img/galery1.jpg">
                     </a>
             </div>
             <div class="col-md-4">
-                    <a href="img/galery2.jpg" class="image">
-                        <img src="img/galery2.jpg">
+                    <a href="../img/galery2.jpg" class="image">
+                        <img src="../img/galery2.jpg">
                     </a>
             </div>
             <div class="col-md-4">
-                    <a href="img/galery3.jpg" class="image">
-                        <img src="img/galery3.jpg">
+                    <a href="../img/galery3.jpg" class="image">
+                        <img src="../img/galery3.jpg">
                     </a>
             </div>
         </div>
         <div class="row gal">
             <div class="col-md-4">
-                    <a href="img/galery1.jpg" class="image">
-                        <img src="img/galery1.jpg">
+                    <a href="../img/galery1.jpg" class="image">
+                        <img src="../img/galery1.jpg">
                     </a>
             </div>
             <div class="col-md-4">
-                    <a href="img/galery2.jpg" class="image">
-                        <img src="img/galery2.jpg">
+                    <a href="../img/galery2.jpg" class="image">
+                        <img src="../img/galery2.jpg">
                     </a>
             </div>
             <div class="col-md-4">
-                    <a href="img/galery3.jpg" class="image">
-                        <img src="img/galery3.jpg">
+                    <a href="../img/galery3.jpg" class="image">
+                        <img src="../img/galery3.jpg">
                     </a>
             </div>
         </div>
@@ -313,19 +297,19 @@
         <div class="fixed-background">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Kontakt</h1>
+                    <h1 data-aos="slide-right">Kontakt</h1>
                     <div class="podvucen-naslov"></div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-5 inf">
+                <div data-aos="zoom-out-right" data-aos-duration="1500" class="col-md-5 inf">
                     <i class="fas fa-envelope"></i>&nbsp; office@boxpetrovski.rs<br>
                     <i class="fas fa-phone-alt"></i>&nbsp; 069/528-82-50<br>
-                    <i class="fas fa-home"></i>&nbsp; Braće Miladinov 15,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11050 Zvezdara<br><br>
+                    <i class="fas fa-home"></i>&nbsp; Braće Miladinov 12,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11050 Zvezdara<br><br>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.4804652044863!2d20.50232815010695!3d44.7913960841621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70840dddbbfd%3A0x5e3ff7027c90e552!2sBra%C4%87e%20Miladinov%2C%20Beograd!5e0!3m2!1sen!2srs!4v1575382687365!5m2!1sen!2srs" width="400" height="230" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
 
-                <div class="col-md-6 form">
+                <div data-aos="zoom-out-left" data-aos-duration="1500" class="col-md-6 form">
                     <form>
                         <div class="form-group">
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Vaše ime i prezime">
@@ -357,7 +341,6 @@
         <p>Sva prava zadržana &copy; Box Petrovski 2019.</p>
     </div>
     
-          
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -365,9 +348,17 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="../js/aos.js"></script>
+
+  <script type="text/javascript">
+    AOS.init();
+  </script>
     
     <script>
-
         let navbar = $(".navbar");
 
         $(window).scroll(function(){
@@ -378,9 +369,8 @@
                 navbar.removeClass("sticky");
             }
         });
- 
+
     </script>
  
-    
   </body>
 </html>
