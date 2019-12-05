@@ -26,6 +26,12 @@
     }
 }
 
+@media screen and (max-width: 1366px) {
+    .caption {
+        top: 53%;
+    }
+}
+
 @media screen and (max-width: 1280px) {
     .caption {
         top: 56%;
