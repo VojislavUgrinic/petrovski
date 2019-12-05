@@ -1,6 +1,6 @@
 @media screen and (max-width: 1920px) {
     .caption {
-        margin-top: -12%;
+        top: 45%;
     }
 
     .ajkula {
@@ -22,13 +22,19 @@
     }
 
     .caption {
-        margin-top: -12%;
+        top: 48%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .caption {
+        top: 56%;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .caption {
-        margin-top: -10%;
+       top: 53%;
     }
 
     .ajkula {
@@ -65,7 +71,7 @@
     }
 
     .caption {
-        margin-top: -6%;
+       top: 58%;
     }
 
     .caption h1 {
@@ -151,7 +157,7 @@
     }
 
     .caption {
-        margin-top: 13%;
+        top: 80%;
     }
 
     .caption h1 {
@@ -233,7 +239,9 @@
 
 @media screen and (max-width: 320px) {
     .caption {
-        margin-top: 20%;
+        top: 85%;
     }
 }
+
+
 
