@@ -70,69 +70,7 @@ body {
 }
 
 
-    /* Navigacija
-
-.navbar {
-    transform: skew(-15deg);
-}
-
-.navbar {
-    background-color: rgb(180, 47, 38) !important;
-    width: 70%;
-    margin-left: 15%;
-    padding: 8px;
-    margin-top: -18px;
-}
-
-.navbar li {
-    display: inline-block; 
-}
-
-.navbar a {
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #fff;
-    border-right: 0.3px solid rgb(207, 207, 207);
-    padding: 10px 25px;
-    text-decoration: none;
-}
-
-.navbar li {
-    transform: skew(15deg);
-}
-
-.navbar a:hover {
-    border-bottom: 3px solid white;
-}
-
-#kont, #fb, #inst {
-    border-right: none;
-}
-
-#inst, #fb {
-    padding: 10px 5px;
-    font-weight: 200;
-}
-
-.nav-right {
-    float: right;
-    margin-right: 15px;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    margin-top: 15px;
-    width: 100%;
-    z-index: 9999;
-    transition: all 1.5s ease;
-    opacity: 0.8;
-    
-}
-
-*/
-
+    /* Navigacija */
 
 .navbar {
     transform: skew(-15deg);
@@ -146,7 +84,12 @@ body {
     margin-top: -18px;
 }
 
-.navbar a {
+.navbar li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar li a {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
@@ -155,6 +98,32 @@ body {
     padding: 1px 25px !important;
     margin: 4px 0px;
     text-decoration: none;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    transition: 0.7s all;
+}
+
+.navbar li a:before {
+    content: '';
+    width: 50px;
+    position: absolute;
+    border-bottom: 3.3px solid white;
+    bottom: 0px;
+    right: 200px;
+    transition: 0.7s all;
+}
+
+.navbar li a:hover:before {
+    right: 10px;
+}
+
+.navbar li #fb:before {
+    border-bottom: none;
+}
+
+.navbar li #inst:before {
+    border-bottom: none;
 }
 
 .navbar .nav-item {
@@ -261,7 +230,6 @@ body {
     right: 0;
     bottom: 0;
     width: 10%;
-   
 }
 
 .podvucen-naslov {
@@ -270,12 +238,6 @@ body {
     margin-left: -210px;
     background-color: rgb(180, 47, 38);
     transform: skew(-30deg);
-}
-
-.fa-minus {
-    transform: rotate(90deg);
-    font-size: 18px;
-    color: rgb(180, 47, 38);
 }
 
 .hor-line {
