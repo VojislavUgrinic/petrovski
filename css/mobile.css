@@ -17,6 +17,10 @@
 }
 
 @media screen and (max-width: 1440px) {
+    .podvucen-naslov {
+        width: 450px;
+    }
+
     .redboxl, .redboxr {
         margin-top: 9%;
     }
@@ -84,6 +88,10 @@
         padding: 1px 25px !important;
     }
 
+    #blogicon {
+        padding-left: 0px !important;
+    }
+
     .caption {
        top: 58%;
     }
@@ -132,6 +140,15 @@
 
     .kontakt {
         padding: 6.8% 2%;
+    }
+
+    .blog {
+        padding: 6.8% 2%;
+    }
+
+    .blog .datum {
+        display: block;
+        padding-bottom: 10px;
     }
 }
 
@@ -249,11 +266,37 @@
         padding-left: 8%;
         padding-right: 8%;
     }
+
+    .blog .bl {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .blog .datum {
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+
+    .blog .h1-blog {
+        padding-top: 30%;
+    }
+
+    .podvucen-naslov-blog {
+        margin-left: 42%;
+    }
+
+    .blog .card {
+        margin-bottom: 10%;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .caption {
         top: 85%;
+    }
+
+    .podvucen-naslov-blog {
+        margin-left: 37%;
     }
 }
 

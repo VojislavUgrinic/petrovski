@@ -13,10 +13,10 @@
 
     <!-- CSS -->
     
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fixed.css">
-    <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" href="css/aos.css"> 
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fixed.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="../css/aos.css"> 
 
     <title>Box Petrovski</title>
   </head>
@@ -47,7 +47,7 @@
                     <p>11050 Zvezdara</p>
             </div>
             <div class="col-md-3">
-                    <a href="index.html"><img src="img/logo.png"></a>
+                    <a href="index.html"><img src="../img/logo.png"></a>
             </div>
             <div class="col-md-3 clock">
                     <i class="far fa-clock fa-1.5x" data-fa-transform="shrink-4.5 up-4.5"></i>
@@ -64,7 +64,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-align-left text-light"></i>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+            <a class="navbar-brand" href="index.html"><img src="../img/logo.png"></a>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
@@ -83,11 +83,15 @@
                   <a class="nav-link" id="kont" href="#kontakt">Kontakt</a>
                 </li>   
                </ul>            
-                <li class="nav-item">
-                    <a class="nav-link" id="fb" href="#"><i class="fab fa-facebook-f"></i></a>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" id="fb" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="inst" href="#"><i class="fab fa-instagram"></i></a>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" id="inst" href="https://www.instagram.com
+                    " target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" id="blogicon" href="#blog"><i class="fas fa-blog"></i></a>
                 </li>
             </div>
           </nav>
@@ -112,14 +116,14 @@
 
     <!-- O nama -->
 
-    <img src="img/peraje.png" id="peraje">
+    <img src="../img/peraje.png" id="peraje">
     <div class="onama" id="onama">
         <div class="row">
             <div class="col-md-12">
-                <h1>O nama</h1>
-                <div data-aos="slide-right" class="podvucen-naslov"></div>
+                <h1 data-aos="slide-right">O nama</h1>
+                <div class="podvucen-naslov"></div>
             </div>
-            <img src="img/dvelinije.png">
+            <img src="../img/dvelinije.png">
         </div>
         <div class="row onama-text">     
             <div class="col-md-5 onama1">         
@@ -148,10 +152,30 @@
             </div>
             <div data-aos="zoom-out-left" data-aos-duration="1500" class="col-md-6 col-sm-12 text-left">
                     <div class="d-flex flex-row justify-content-center">
-                        <img src="img/servisklima.png">
+                        <img src="../img/servisklima.png">
                         <div class="text text-left">
                             <h3 class="pt-1 m-0">Servis klima uređaja</h3>
                             <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
+
+                            <!--
+                            <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                      <div class="card-header" id="headingOne">
+                                        <h2 class="my-0 mx-0 py-0 px-0">
+                                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <i class="fas fa-caret-down"></i>
+                                          </button>
+                                        </h2>
+                                      </div>
+                                  
+                                      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  -->   
                         </div>
                     </div>
             </div>
@@ -160,7 +184,7 @@
         <div class="row usluge-opis">
             <div data-aos="zoom-out-right" data-aos-duration="1500" class="col-md-6 col-sm-12 text-right">
                 <div class="d-flex flex-row justify-content-center">
-                    <img src="img/autoelektrika.png">
+                    <img src="../img/autoelektrika.png">
                     <div class="text text-left">
                         <h3 class="pt-1 m-0">Auto elektrika</h3>
                         <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
@@ -169,7 +193,7 @@
             </div>
             <div data-aos="zoom-out-left" data-aos-duration="1500" class="col-md-6 col-sm-12 text-left">
                     <div class="d-flex flex-row justify-content-center">
-                        <img src="img/dijagnostika.png">
+                        <img src="../img/dijagnostika.png">
                         <div class="text text-left">
                             <h3 class="pt-1 m-0">Dijagnostika</h3>
                             <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
@@ -181,7 +205,7 @@
         <div class="row usluge-opis">
             <div data-aos="zoom-out-right" data-aos-duration="1500" class="col-md-6 col-sm-12 text-right">
                 <div class="d-flex flex-row justify-content-center">
-                    <img src="img/limarija.png">
+                    <img src="../img/limarija.png">
                     <div class="text text-left">
                         <h3 class="pt-1 m-0">Limarija</h3>
                         <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
@@ -190,7 +214,7 @@
             </div>
             <div data-aos="zoom-out-left" data-aos-duration="1500" class="col-md-6 col-sm-12 text-left">
                     <div class="d-flex flex-row justify-content-center">
-                        <img src="img/vulkanizer.png">
+                        <img src="../img/vulkanizer.png">
                         <div class="text text-left">
                             <h3 class="pt-1 m-0">Vulkanizer</h3>
                             <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
@@ -202,7 +226,7 @@
         <div class="row usluge-opis">
             <div data-aos="zoom-out-right" data-aos-duration="1500" class="col-md-6 col-sm-12 text-right">
                 <div class="d-flex flex-row justify-content-center">
-                    <img src="img/mehanika.png">
+                    <img src="../img/mehanika.png">
                     <div class="text text-left">
                         <h3 class="pt-1 m-0">Mehanika</h3>
                         <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
@@ -211,7 +235,7 @@
             </div>
             <div data-aos="zoom-out-left" data-aos-duration="1500" class="col-md-6 col-sm-12 text-left">
                     <div class="d-flex flex-row justify-content-center">
-                        <img src="img/vulkanizer.png">
+                        <img src="../img/vulkanizer.png">
                         <div class="text text-left">
                             <h3 class="pt-1 m-0">Vulkanizer 2</h3>
                             <p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, sed do eiusmod tempor ncididunt ut labore et. dolore magna aliqua.</p>
@@ -233,58 +257,58 @@
             </div>
         </div>
         <div data-aos="slide-left" data-aos-duration="2000" class="ajkula">
-            <img src="img/ajkula.png">
+            <img src="../img/ajkula.png">
         </div>
         <div class="redboxl"></div>
         <div class="redboxr"></div>
         <div class="row gal"> 
             <div class="col-md-4">
-                <a href="img/galery1.jpg" class="image">
-                    <img src="img/galery1.jpg">
+                <a href="../img/galery1.jpg" class="image">
+                    <img src="../img/galery1.jpg">
                 </a>
             </div>
             <div class="col-md-4">
-                    <a href="img/galery2.jpg" class="image">
-                        <img src="img/galery2.jpg">
+                    <a href="../img/galery2.jpg" class="image">
+                        <img src="../img/galery2.jpg">
                     </a>
             </div>
             <div class="col-md-4">
-                    <a href="img/galery3.jpg" class="image">
-                        <img src="img/galery3.jpg">
+                    <a href="../img/galery3.jpg" class="image">
+                        <img src="../img/galery3.jpg">
                     </a>
             </div>  
         </div>
         <div class="row gal">
             <div class="col-md-4">
-                    <a href="img/galery1.jpg" class="image">
-                        <img src="img/galery1.jpg">
+                    <a href="../img/galery1.jpg" class="image">
+                        <img src="../img/galery1.jpg">
                     </a>
             </div>
             <div class="col-md-4">
-                    <a href="img/galery2.jpg" class="image">
-                        <img src="img/galery2.jpg">
+                    <a href="../img/galery2.jpg" class="image">
+                        <img src="../img/galery2.jpg">
                     </a>
             </div>
             <div class="col-md-4">
-                    <a href="img/galery3.jpg" class="image">
-                        <img src="img/galery3.jpg">
+                    <a href="../img/galery3.jpg" class="image">
+                        <img src="../img/galery3.jpg">
                     </a>
             </div>
         </div>
         <div class="row gal">
             <div class="col-md-4">
-                    <a href="img/galery1.jpg" class="image">
-                        <img src="img/galery1.jpg">
+                    <a href="../img/galery1.jpg" class="image">
+                        <img src="../img/galery1.jpg">
                     </a>
             </div>
             <div class="col-md-4">
-                    <a href="img/galery2.jpg" class="image">
-                        <img src="img/galery2.jpg">
+                    <a href="../img/galery2.jpg" class="image">
+                        <img src="../img/galery2.jpg">
                     </a>
             </div>
             <div class="col-md-4">
-                    <a href="img/galery3.jpg" class="image">
-                        <img src="img/galery3.jpg">
+                    <a href="../img/galery3.jpg" class="image">
+                        <img src="../img/galery3.jpg">
                     </a>
             </div>
         </div>
@@ -335,6 +359,53 @@
     </div>
 
 
+    <!-- Blog -->
+
+    <div class="blog" id="blog">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 data-aos="slide-right">Blog</h1>
+                <div class="podvucen-naslov"></div>
+            </div>
+        </div>
+
+        <div class="row bl">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/blog.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-left px-3">
+                      <h5 class="card-title">Kad i zašto raditi mali servis</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card...</p>
+                      <div class="datum">05/apr/2020</div> <div class="cosak"></div><a href="blog.html" target="_blank" class="btn btn-primary">Detaljnije</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/blog.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-left px-3">
+                      <h5 class="card-title">Dijagnostika</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card...</p>
+                      <div class="datum">05/apr/2020</div> <div class="cosak"></div><a href="blog2.html" target="_blank" class="btn btn-primary">Detaljnije</a>
+                    </div>
+                  </div> 
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 15rem;">
+                    <img src="../img/blog.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-left px-3">
+                      <h5 class="card-title">Kad i zašto raditi mali servis</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card...</p>
+                      <div class="datum">05/apr/2020</div> <div class="cosak"></div><a href="blog.html" target="_blank" class="btn btn-primary">Detaljnije</a>
+                    </div>
+                  </div> 
+            </div>
+        </div>
+    </div>
+
+
     <!-- Futer -->
 
     <div class="footer">
@@ -352,7 +423,7 @@
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
-  <script src="js/aos.js"></script>
+  <script src="../js/aos.js"></script>
 
   <script type="text/javascript">
     AOS.init();
