@@ -135,11 +135,11 @@ body {
     list-style-type: none;
 }
 
-#kont, #fb, #inst, #blogicon {
+#blg, #fb, #inst, #blogicon {
     border-right: none;
 }
 
-#fb, #inst {
+#fb {
     padding-right: 0px !important;
 }
 
