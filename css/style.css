@@ -5,14 +5,14 @@ html {
 }
 
 body {
-  overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
-  color: #505962;
-  color: #777777;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #505962;
+    color: #777777;
 }
 
 
-    /* Header */
+/* Header */
 
 .top-header {
     font-size: 12px;
@@ -32,7 +32,7 @@ body {
 }
 
 .email {
-   padding-left: 20px;
+    padding-left: 20px;
 }
 
 .main-header {
@@ -65,12 +65,13 @@ body {
     line-height: 6px;
 }
 
-.main-header .clock, .home {
+.main-header .clock,
+.home {
     padding-top: 15px;
 }
 
 
-    /* Navigacija */
+/* Navigacija */
 
 .navbar {
     transform: skew(-15deg);
@@ -135,7 +136,10 @@ body {
     list-style-type: none;
 }
 
-#blg, #fb, #inst, #blogicon {
+#blg,
+#fb,
+#inst,
+#blogicon {
     border-right: none;
 }
 
@@ -149,7 +153,7 @@ body {
     margin-top: 0px;
     z-index: 9999;
     transition: all 1.5s ease;
-    opacity: 1; 
+    opacity: 1;
 }
 
 .navbar-brand {
@@ -157,7 +161,7 @@ body {
 }
 
 
-    /* Naslovna strana */
+/* Naslovna strana */
 
 .home-inner {
     background-image: url(../img/home.jpg);
@@ -172,7 +176,7 @@ body {
     color: #fff;
     text-transform: uppercase;
 }
-  
+
 .caption h1 {
     font-size: 35px;
     font-weight: 600;
@@ -181,7 +185,7 @@ body {
     padding-bottom: 1rem;
     line-height: 0px;
 }
-  
+
 .caption h3 {
     font-size: 20px;
     font-weight: 500;
@@ -191,7 +195,7 @@ body {
 }
 
 
-    /* O nama */
+/* O nama */
 
 .onama {
     background-color: #fff;
@@ -251,7 +255,7 @@ body {
 }
 
 
-    /* Usluge */
+/* Usluge */
 
 .usluge {
     background-color: rgb(247, 248, 250);
@@ -304,11 +308,11 @@ body {
 }
 
 .accordion .card .card-header .fas {
-   position: absolute;
-   padding-top: 0px !important;
-   top: -4px;
-   left: 45%;
-   color: #b1b1b1;
+    position: absolute;
+    padding-top: 0px !important;
+    top: -4px;
+    left: 45%;
+    color: #b1b1b1;
 }
 
 .accordion .card .card-header h2 {
@@ -326,7 +330,7 @@ body {
 }
 
 
-    /* Galerija */
+/* Galerija */
 
 .galerija {
     background-color: #fff;
@@ -388,8 +392,8 @@ body {
 }
 
 
-    /* Kontakt */
-  
+/* Kontakt */
+
 .fixed {
     background-image: url(../img/kontakt.jpg);
     z-index: -1;
@@ -467,7 +471,7 @@ body {
 }
 
 
-    /* Futer */
+/* Futer */
 
 .footer {
     text-align: center;
@@ -475,7 +479,7 @@ body {
     background-color: rgb(180, 47, 38);
     height: 80px;
     position: relative;
-    
+
 }
 
 .footer p {
@@ -486,7 +490,7 @@ body {
 }
 
 
-    /* Blog */
+/* Blog */
 
 .blog {
     background-color: #fff;
@@ -514,7 +518,7 @@ body {
 
 .card {
     background-color: rgb(247, 248, 250);
-    width: 100% !important; 
+    width: 100% !important;
     border: none;
     position: relative;
 }
@@ -588,11 +592,98 @@ body {
 }
 
 
+/* Trenutno u ponudi */
 
+.prodaja {
+    padding: 4.5% 8%;
+    font-size: 13px;
+    background: url(../img/prodaja-bg.png);
+    background-size: cover;
+}
 
+.prodaja .pr {
+    margin-left: 22%;
+    margin-right: 22%;
+}
 
+.prodaja img {
+    width: 100%;
+}
 
+.prodaja .h1-prodaja {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 0px;
+}
 
+.podvucen-naslov-prodaja {
+    width: 80px;
+    height: 2px;
+    background-color: rgb(180, 47, 38);
+    margin-bottom: 80px;
+    margin-left: 46%;
+}
 
+.prodaja .btn-primary {
+    transition: 0.5s ease-in-out;
+    text-transform: none;
+    color: #fff;
+    font-weight: 500;
+    background-color: rgb(180, 47, 38);
+    border: none;
+    border-radius: 0% !important;
+    font-size: 13px;
+    padding: 1px 12px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 
+.prodaja .cosak {
+    display: inline-block;
+    background-color: rgb(180, 47, 38);
+    width: 20px;
+    height: 21px;
+    position: absolute;
+    transform: skew(-15deg);
+    right: 70px;
+    bottom: 0;
+}
 
+.prodaja .card {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100% !important;
+    border: none;
+    border-radius: 0px;
+    position: relative;
+}
+
+.prodaja .card h5 {
+    background-color: rgb(180, 47, 38);
+    padding: 10px 10px;
+    margin: 0px 0px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.prodaja .card-text {
+    color: #fff;
+    padding: 10% 10%;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+table {
+    margin-left: 30px;
+}
+
+table tr td {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+}

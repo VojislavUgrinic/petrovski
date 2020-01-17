@@ -14,6 +14,14 @@
     .redboxl, .redboxr {
         margin-top: 12%;
     }
+
+    .prodaja .podvucen-naslov-prodaja {
+        margin-left: 48%;
+    }
+
+    .prodaja table {
+        margin-left: 60px;
+    }
 }
 
 @media screen and (max-width: 1440px) {
@@ -28,11 +36,23 @@
     .caption {
         top: 48%;
     }
+
+    .prodaja .podvucen-naslov-prodaja {
+        margin-left: 47%;
+    }
+
+    .prodaja table {
+        margin-left: 50px;
+    }
 }
 
 @media screen and (max-width: 1366px) {
     .caption {
         top: 58%;
+    }
+
+    .prodaja table {
+        margin-left: 30px;
     }
 }
 
@@ -149,6 +169,19 @@
     .blog .datum {
         display: block;
         padding-bottom: 10px;
+    }
+
+    .prodaja {
+        padding: 4.5% 2%;
+    }
+
+    .prodaja .pr {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .prodaja .podvucen-naslov-prodaja {
+        margin-left: 45%;
     }
 }
 
@@ -288,6 +321,23 @@
     .blog .card {
         margin-bottom: 10%;
     }
+
+    .prodaja .card {
+        margin-bottom: 10%;
+    }
+
+    .prodaja .pr {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .prodaja .podvucen-naslov-prodaja {
+        margin-left: 43%;
+    }
+
+    .prodaja table {
+         margin-left: 50px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -298,6 +348,14 @@
     .podvucen-naslov-blog {
         margin-left: 37%;
     }
+
+    .prodaja .podvucen-naslov-prodaja {
+        margin-left: 40%;
+    }
+
+    .prodaja table {
+        margin-left: 40px;
+   }
 }
 
 
